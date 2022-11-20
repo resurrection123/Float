@@ -23,14 +23,14 @@ main{
 }
 .container main aside{
     width: 30%;
-    margin-right: 20px;
-    height: 300px;
+    height: 350px;
     background-color: violet;
 }
-.container main section{
-    width: calc(70% - 20px);
+.container main section.main{
+    width: calc(40% - 40px);
     height: 500px;
     background-color: pink;
+    margin: 0 20px;
 }
 footer{
     height: 318px;
